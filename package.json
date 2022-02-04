@@ -1,0 +1,17 @@
+{
+  "name": "to-do-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:AdamBecker85/to-do-app.git",
+  "author": "Adam Becker <amkbecker@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1",
+    "uuid": "^8.3.2"
+  }
+}
